@@ -1,0 +1,28 @@
+#cal{
+    width:30%;
+    height:auto;
+    border:2px solid rgb(79,211,255);
+    box-shadow: 4px 4px 4px rgb(79,211,255);
+    border-radius: 5px;
+    margin: 25px auto;
+    background-image: linear-gradient(lightskyblue,white);
+}
+
+input[type="text"]{
+    width: 96%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+button{
+    background-image: radial-gradient(circle,white,lightskyblue);
+    border-radius:50%;
+    border:  1px soild rgb(0,67,89);
+    width: 20%;
+    margin: 2.5px;
+}
+button:hover{
+    background-image: radial-gradient(rgb(88, 123, 145),rgb(0,141,230));
+    color: white;
+    box-shadow: 1px 1px 1px lightskyblue;
+}
